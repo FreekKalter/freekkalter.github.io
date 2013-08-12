@@ -1,2 +1,2 @@
 port: 4001
-baseurl: http://blog.kalteronline.org
+baseurl: "http://blog.kalteronline.org"
