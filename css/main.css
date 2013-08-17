@@ -6,11 +6,22 @@ body{
     line-height: 19px;
 }
 
+h1{
+    font-size: 2.0em;
+}
+
+a {
+    color: #4592FF;
+}
+
+#about p{
+    font-style: italic;
+}
+
 /**************** Navigation bar *********************/
 .nav > li{
     display: block;
     float: left;
-    /*padding:*/
     margin: 0 10px 0 0;
 }
 
@@ -30,14 +41,6 @@ body{
     font-size: 1.1em;
 }
 
-ul {
-    list-style: disc outside none;
-}
-
-
-a {
-    color: #4592FF;
-}
 
 /********************* Footer *********************/
 #footer{

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<head>
+   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+   <title>{{ page.title }}</title>
+   <meta name="author" content="Freek Kalter" />
+   <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel=stylesheet>
+   <link href="{{ site.baseurl }}/css/main.css" rel="stylesheet">
+</head>
+<body>
+
+<div id="wrap">
+    <div class="topbar" data-scrollspy="scrollspy">
+       <div class="topbar-inner">
+          <div class="container">
+             <ul class="nav">
+                <li><a class="extra" href="{{ site.baseurl }}/">home</a></li>
+                <li><a class="extra" href="{{ site.baseurl }}/about">about</a></li>
+             </ul>
+          </div><!--container-->
+       </div><!--topbar-inner-->
+    </div><!--topbar-->
+
+    <div id="container" class="container">
+       <div class="row-fluid">
+          <div id="about" class="span12">
+
+            {{ content }}
+
+        </div><!-- span12 -->
+     </div><!--row-->
+    <div id="footer" class="row">
+      <div class="container">
+          <div class="contact span4">
+            <p>
+              Freek Kalter<br />
+              <a href="http://github.com/FreekKalter/">github.com/FreekKalter</a><br />
+            </p>
+          </div>
+          <div class="sites span5">
+            <p>
+              <a href="mailto:freek@kalteronline.org">freek@kalteronline.org</a><br />
+              <a href="http://twitter.com/FreekKalter/">twitter.com/FreekKalter</a>
+            </p>
+          </div>
+      </div> <!-- container -->
+    </div><!--footer-->
+    </div><!-- container-->
+
+</body>
+</html>
+
+
